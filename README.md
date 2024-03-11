@@ -97,4 +97,4 @@ Per lo scopo di questo progetto sia la parte ShaderLab che il programma Vertex r
 
 Questo è un semplice template per la creazione di effetti di noise tramite shader che può essere personalizzato creando funzioni in HLSL e assegnando un valore di ritorno al colore del fragment.
 
-All'interno della cartella '**Studi**' vi sono una serie di shader semplici, atte ad apprendere le funzioni principali utilizzati nella programmazione shader, che possono essere assegnate al materiale della canvas per vedere gli effetti che generano. Queste shader non vengono esportate per il progetto finale, sono state utilizzate solamente per l'apprendimento della programmazione shader.
+All'interno della cartella '**Asset/Studi**' vi sono una serie di shader semplici, atte ad apprendere le funzioni principali utilizzati nella programmazione shader, che possono essere assegnate al materiale della canvas per vedere gli effetti che generano. Queste shader non vengono esportate per il progetto finale, sono state utilizzate solamente per l'apprendimento della programmazione shader.
