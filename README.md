@@ -40,6 +40,12 @@ Questo GameObject è responsabile per il controllo di tutto quello che succede n
 3. Lo script **TimeBar** : gestisce l'avanzamento dello slider. Ha una variabile che contiene il tempo massimo dell'esercizio e finche la variabile *Time.timeScale* non è 0 procede fino ad arrivare al tempo massimo. Una volta assegnato alla canvas permette tramite l'inspector di decidere il GameObject che rappresenta lo slider.
 4. Lo script **Toggle Fullscreen** : permette di clickare due volte lo schermo per entrare ed uscire dalla modalita' schermo intero.
 
+## Movimento con DOTween :
+La libreria installata in precedenza rende la gestione del movimento molto semplice e coincisa. Nel progetto si utilizzano principalmente tre metodi di movimento :
+- **DOMove** : Permette di muovere l'oggetto scelto seguendo un vettore 3D in un certo intervallo di tempo. Inoltre si possono aggiungere i metodi **SetEase** e **SetLoops** per gestire l'interpolazione lineare e quante volte deve essere ripetuto il movimento.
+- **DORotate** : permette di ruotare un oggetto nella posizione specificata da un vettore 3D.
+- **Sequenze** : sono uno speciale modo per gestire una sequenza di operazioni, permettono di concatenare molteplici metodi tramite *.Append()*. Una volta terminata la sequenza si invoca *.Play()* per caricare tutte le azioni richieste e poi eseguirle una dietro l'altra.
+
 ## Le Shader
 All'interno della cartella 'Shader' vi sono tutti i materiali e le shader sviluppate per il progetto, nominati in base all'esercizio a cui sono assegnati.
 Per lo scopo di questo progetto ogni shader è diversa dall'altra anche se spesso condividono tra di loro alcune funzioni e il guscio esterno del programma.
