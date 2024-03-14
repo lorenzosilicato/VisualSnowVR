@@ -35,7 +35,9 @@ In questo progetto ogni scena Unity rappresenta un esercizio diverso. Tutte le s
 - Uno **Slider** : viene utilizzato per tenere traccia del tempo trascorso e del tempo rimanente nell'esercizio.
 
 Infine, alcuni degli esercizi contengono delle Image UI, creati come oggetti figli della canvas e saranno gli oggetti che si muoveranno nello spazio e avranno come materiale le shader.
+
 ![Screenshot 2024-03-14 ](https://github.com/lorenzosilicato/VisualSnowVR/assets/122553596/0a04c5b1-0684-4b3f-83bf-3abfd1cc2e8e)
+
 ![Screenshot 2024-03-14 204335](https://github.com/lorenzosilicato/VisualSnowVR/assets/122553596/f844c7de-fc59-4143-b787-50048541c21c)
 
 ### Canvas
