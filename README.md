@@ -25,6 +25,7 @@ Una volta fatto cio bisogna impostare DOTween per gestire i moduli necessari :
 
 ### Configurazione delle scene
 ![Screenshot 2024-03-14 204225](https://github.com/lorenzosilicato/VisualSnowVR/assets/122553596/343ec5e5-e013-4da3-9b4d-a2d1a894adb4)
+
 In questo progetto ogni scena Unity rappresenta un esercizio diverso. Tutte le scene sono composte dai seguenti oggetti :
 - Una **Canvas UI** : è il GameObject principale e  rappresenta la porzione di schermo in cui saranno visualizzati gli effetti e in cui si muoveranno i pannelli figli, se esistenti.
 	- Tramite l'inspector la Render Mode della canvas viene impostata a 'Screen Space - Camera' e in Render Camera viene assegnata la main camera del progetto.
