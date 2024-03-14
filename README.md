@@ -21,8 +21,10 @@ Una volta fatto cio bisogna impostare DOTween per gestire i moduli necessari :
 2. Si aprirà un pannello, clickare il bottone verde 'Setup DOTween...'
 3. In questa sezione si possono scegliere moduli da importare, nel nostro caso importeremo solamente 'UI' e 'Sprites'
 4. Clickare 'Apply' per terminare.
+![Screenshot 2024-03-14 2](https://github.com/lorenzosilicato/VisualSnowVR/assets/122553596/0603dd09-f182-4169-93f9-77facadd3608)
 
 ### Configurazione delle scene
+![Screenshot 2024-03-14 204225](https://github.com/lorenzosilicato/VisualSnowVR/assets/122553596/343ec5e5-e013-4da3-9b4d-a2d1a894adb4)
 In questo progetto ogni scena Unity rappresenta un esercizio diverso. Tutte le scene sono composte dai seguenti oggetti :
 - Una **Canvas UI** : è il GameObject principale e  rappresenta la porzione di schermo in cui saranno visualizzati gli effetti e in cui si muoveranno i pannelli figli, se esistenti.
 	- Tramite l'inspector la Render Mode della canvas viene impostata a 'Screen Space - Camera' e in Render Camera viene assegnata la main camera del progetto.
@@ -32,6 +34,8 @@ In questo progetto ogni scena Unity rappresenta un esercizio diverso. Tutte le s
 - Uno **Slider** : viene utilizzato per tenere traccia del tempo trascorso e del tempo rimanente nell'esercizio.
 
 Infine, alcuni degli esercizi contengono delle Image UI, creati come oggetti figli della canvas e saranno gli oggetti che si muoveranno nello spazio e avranno come materiale le shader.
+![Screenshot 2024-03-14 ](https://github.com/lorenzosilicato/VisualSnowVR/assets/122553596/0a04c5b1-0684-4b3f-83bf-3abfd1cc2e8e)
+![Screenshot 2024-03-14 204335](https://github.com/lorenzosilicato/VisualSnowVR/assets/122553596/f844c7de-fc59-4143-b787-50048541c21c)
 
 ### Canvas
 Questo GameObject è responsabile per il controllo di tutto quello che succede nella scena. All'interno dell'inspector della canvas vengono attaccati i seguenti script :
